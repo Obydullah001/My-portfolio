@@ -7,10 +7,10 @@ const Hero = () => {
         {/* Left Content */}
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Hi, I'm <span className="text-pink-400">Meriem</span>
+            Hi, I'm <span className="text-pink-400">Obydullah Hasib </span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text">
-            Full Stack Developer
+            Front End Developer
           </h2>
           <p className="text-lg text-gray-300">
             Crafting modern, responsive, and user-friendly websites with passion and precision.

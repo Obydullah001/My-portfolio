@@ -38,7 +38,9 @@ const Navbar = () => {
           {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+                <h2 className="text-2xl font-bold bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent inline-block">
+          Obydullah<span className="text-white">&lt;/&gt;</span>
+        </h2>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -46,7 +48,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <button className="btn btn-secondary">Contact Me</button>
       </div>
     </div>
   );
