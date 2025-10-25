@@ -16,9 +16,15 @@ const ProjectCard = ({ project }) => {
         <Link to={`/projects/${project.id}`}>
           <button className="mt-4 px-4 py-2 bg-indigo-600 text-white rounded-lg 
                              hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-400 transition">
-            View More / Details
+            View More
           </button>
         </Link>
+        <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+          <button className="mt-4 ml-2 px-4 py-2 bg-gray-600 text-white rounded-lg 
+                             hover:bg-gray-700 focus:ring-2 focus:ring-gray-400 transition">
+            Live Site 
+          </button>
+        </a>
       </div>
     </div>
 

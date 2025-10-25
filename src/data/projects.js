@@ -6,7 +6,7 @@ export const projects = [
     techStack: ['React', 'Tailwind CSS', 'Git' , 'MongoDB', 'css', 'Express Js, Stripe,'],
     description: 'A Real estate Platform (an online platform where people can add and buy real estate properties) using the MERN stack.The website has three user roles: user, agent, and admin. The platform will enable users to wishlist and purchase properties, and provide property reviews. Agents will be empowered to add new properties and track their requested and sold properties. Admins have comprehensive management capabilities to manage properties, users, and reviews, ensuring smooth and efficient platform operations. A Complete SaaS Project to pay and buy properties',
     liveLink: 'https://truenest-project-asssignment.web.app/',
-    githubLink: 'https://github.com/yourusername/portfolio',
+    githubLink: 'https://github.com/Obydullah001/TrueNest-Home_project',
     challenges: 'Responsive layout, performance optimization , Switching Role and Payment Gateway.',
     improvements: 'Add blog section, animations, and multilingual support .'
   },
@@ -18,7 +18,7 @@ export const projects = [
     techStack: ['React', 'Tailwind CSS', 'Git', 'MongoDB', 'css', 'Express Js'],
     description: 'The Marathon Management System is a platform that helps organize marathon events by connecting event organizers with participants. Users can create marathons, sign up for events, and manage their registrations through a personal dashboard. This project offers practical experience in building full-stack applications, setting up user login, managing data, and connecting with a secure database.',
     liveLink: 'https://marathon-spinner-auth.web.app/',
-    githubLink: 'https://github.com/yourusername/portfolio',
+    githubLink: 'https://github.com/Obydullah001/Marathon-Spinner-client-Side',
     challenges: 'Responsive layout, dark mode toggle, performance optimization.',
     improvements: 'Add blog section, animations, and multilingual support.'
   },
@@ -29,7 +29,7 @@ export const projects = [
     techStack: ['React', 'Tailwind CSS', 'Git','MongoDB', 'css', 'Express Js'],
     description: 'A platform that helps individuals find compatible roommates based on location, budget, lifestyle preferences, and interests. Users can create profiles, search for roommates, and connect via chat',
     liveLink: 'https://roomies-finder-auth.web.app/',
-    githubLink: 'https://github.com/yourusername/portfolio',
+    githubLink: 'https://github.com/Obydullah001/Roomie-Finder-Client-Side-',
     challenges: 'Responsive layout, dark mode toggle, performance optimization.',
     improvements: 'Add blog section, animations, and multilingual support.'
   },

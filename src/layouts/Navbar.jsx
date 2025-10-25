@@ -4,10 +4,16 @@ import { Link } from "react-router";
 const Navbar = () => {
   const links = <>
     <li>
-              <Link>About Me</Link>
+              <Link>About</Link>
             </li>
             <li>
-              <Link>Find Out More</Link>
+              <Link>Skills</Link>
+            </li>
+            <li>
+              <Link>Projects</Link>
+            </li>
+            <li>
+              <Link>Contact</Link>
             </li>
   </>
   return (

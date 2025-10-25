@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
@@ -13,31 +14,55 @@ const Hero = () => {
             Front End Developer
           </h2>
           <p className="text-lg text-gray-300">
-            Crafting modern, responsive, and user-friendly websites with passion and precision.
+            I am a passionate Front End Based MERN Stack Developer Focused on
+            Crafting Beautiful and Functional Web Experiences. With the help of
+            React , Javascript and Other Tools .
           </p>
-          <a
-            href="/resume.pdf"
-            className="inline-flex items-center bg-pink-500 hover:bg-pink-600 text-white font-semibold px-5 py-3 rounded-lg transition duration-300"
-          >
-            <span className="mr-2">📄</span> Download Resume
-          </a>
+          <div className="flex space-x-2.5">
+            <a
+              href="https://drive.google.com/file/d/1-rDvH37kljIpN4NhFjhXP1noAj6uAiGJ/view?usp=sharing"
+              download
+              className="inline-flex items-center bg-pink-500 hover:bg-pink-600 text-white font-semibold px-5 py-3 rounded-lg transition duration-300"
+            >
+              <span className="mr-2">📄</span> Download Resume
+            </a>
+            <Link
+              to="/contact"
+              className="inline-flex items-center bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-5 py-3 rounded-lg transition duration-300"
+            >
+              <span className="mr-2">✉️</span> Contact Me
+            </Link>
+          </div>
+          <div className="flex gap-2 -mt-3 ml-1">
+            <a href="https://www.linkedin.com/in/obydullah-hasib/" target="_blank" rel="noopener noreferrer">
+              <img
+              className="size-7"
+              src="https://i.ibb.co.com/NnsvJd3t/linkedin.png"
+              alt=""
+            />
+            </a>
+        <a href="https://github.com/Obydullah001" target="_blank" rel="noopener noreferrer">
+          <img
+            className="size-7"
+            src="https://i.ibb.co.com/VYfp7nDw/github.png"
+            alt=""
+          />
+        </a>
+          </div>
         </div>
 
         {/* Right Content */}
         <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center relative">
           <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-pink-400 shadow-lg">
             <img
-              src="/images/meriem.jpg"
-              alt="Meriem working on laptop"
+              src="https://i.ibb.co.com/BKTPnk4M/Generated-Image-October-25-2025-5-25-PM.png "
+              alt="Obydullah Hasib Standing Confident"
               className="w-full h-full object-cover"
             />
           </div>
           {/* Skill Icons */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-wrap justify-center items-center gap-4 pointer-events-none">
+          <div className=" items-center gap-4 pointer-events-none">
             {/* Example icons */}
-            <span className="text-yellow-400 text-xl">⚛️</span>
-            <span className="text-blue-400 text-xl">💻</span>
-            <span className="text-green-400 text-xl">🌐</span>
           </div>
         </div>
       </div>
