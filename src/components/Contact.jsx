@@ -19,21 +19,10 @@ const Contact = () => {
               </Link>
             </li>
             <li>
-              <strong>Phone:</strong>{' '}
-              <Link href="tel:+880123456789" className="text-indigo-600 underline">
-                +880 1234 567 89
-              </Link>
-            </li>
-            <li>
-              <strong>WhatsApp:</strong>{' '}
-              <Link
-                href="https://wa.me/880123456789"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-indigo-600 underline"
-              >
-                +880 1234 567 89
-              </Link>
+              <strong>GitHub: </strong>{' '}
+              <a href="https://github.com/Obydullah001" target='blank' className="text-indigo-600 ">
+                obydullah001
+              </a>
             </li>
           </ul>
         </div>

@@ -35,7 +35,7 @@ const Skills = () => {
 
   return (
     <div className="bg-gray-900 text-white min-h-screen p-6 font-sans">
-      <h1 className="text-4xl mx-auto text-center p-3 font-bold text-purple-400">Skills</h1>
+      <h1 className="text-4xl mx-auto text-center p-3 font-bold text-purple-700">Skills</h1>
 
       {/* Category Tabs */}
       <div className="flex justify-center gap-4 mb-8 flex-wrap">
