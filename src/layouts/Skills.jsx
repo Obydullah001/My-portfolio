@@ -67,7 +67,7 @@ const Skills = () => {
             </div>
             <div className="w-full bg-gray-700 rounded-full h-3">
               <div
-                className="bg-purple-500 h-3 rounded-full transition-all duration-500"
+                className="bg-pink-500 h-3 rounded-full transition-all duration-500"
                 style={{ width: `${skill.percent}%` }}
               />
             </div>
