@@ -14,7 +14,7 @@ const Education = () => {
             <img className='w-sm rounded-2xl' src="https://tds-images.thedailystar.net/sites/default/files/styles/very_big_201/public/media/api_images/2025/10/20/JnU%20anniversary.jpg" alt="image of Jagannath University" />
            </div>
         </div>
-        <div className='border p-6 rounded-lg lg:w-[1100px] mx-auto'>
+        <div className='border p-6 rounded-lg text-center md:text-left lg:w-[1100px] mx-auto'>
             <h1 className='text-2xl '>Web Development Course</h1>
               <p className=''> I have Completed A Web Development Course. <br /> Here I have learned HTML, CSS, JavaScript, React, Node js, Express js, MongoDB and other related technologies. </p>
         </div>

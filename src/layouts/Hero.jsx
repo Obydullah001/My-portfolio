@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -11,7 +12,16 @@ const Hero = () => {
             Hi, I'm <span className="text-pink-400">Obydullah Hasib </span>
           </h1>
           <h2 className="text-2xl text-center md:text-3xl md:text-left font-semibold bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text">
-            Front End Developer
+            {" "}
+            <Typewriter
+              words={["Front End Developer", "MERN Stack Developer", "React Developer",]}
+              loop={Infinity}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
           </h2>
           <p className="text-lg text-center md:text-left text-gray-300">
             I am a passionate Front End Based MERN Stack Developer Focused on
@@ -20,31 +30,39 @@ const Hero = () => {
           </p>
           <div className="flex space-x-2.5">
             <a
-              href="https://drive.google.com/file/d/1-rDvH37kljIpN4NhFjhXP1noAj6uAiGJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jLgzbEkXVoXcvcL43RSdhW1E22EcqPuC/view?usp=sharing"
+              target="blank"
               download
               className="inline-flex items-center bg-pink-500 hover:bg-pink-600 text-white font-semibold px-5 py-3 rounded-lg transition duration-300"
             >
-              <span className="mr-2 text-sm lg:text-lg"> Download Resume</span> 
+              <span className="mr-2 text-sm lg:text-lg"> Download Resume</span>
             </a>
             <p className="text-4xl mt-0.5 lg:mt-0 lg:ml-4">|</p>
             <div className="flex mt-3 space-x-2 lg:ml-4">
-            <a href="https://www.linkedin.com/in/obydullah-hasib/" target="_blank" rel="noopener noreferrer">
-              <img
-              className=" size-6 lg:size-7"
-              src="https://i.ibb.co.com/NnsvJd3t/linkedin.png"
-              alt=""
-            />
-            </a>
-        <a href="https://github.com/Obydullah001" target="_blank" rel="noopener noreferrer">
-          <img
-            className=" size-6 lg:size-7"
-            src="https://i.ibb.co.com/VYfp7nDw/github.png"
-            alt=""
-          />
-        </a>
+              <a
+                href="https://www.linkedin.com/in/obydullah-hasib/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=" size-6 lg:size-7"
+                  src="https://i.ibb.co.com/NnsvJd3t/linkedin.png"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://github.com/Obydullah001"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className=" size-6 lg:size-7"
+                  src="https://i.ibb.co.com/VYfp7nDw/github.png"
+                  alt=""
+                />
+              </a>
+            </div>
           </div>
-          </div>
-          
         </div>
 
         {/* Right Content */}

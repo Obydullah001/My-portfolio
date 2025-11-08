@@ -1,30 +1,37 @@
 import React, { useState } from 'react';
+import { AiFillHtml5 } from "react-icons/ai";
+import { FaBootstrap, FaJsSquare, FaNode, FaReact } from 'react-icons/fa';
+import { IoLogoCss3 } from 'react-icons/io';
+import { IoLogoFirebase } from 'react-icons/io5';
+import { RiTailwindCssFill, RiVercelLine } from 'react-icons/ri';
+import { SiExpress, SiMongodb } from 'react-icons/si';
 
 const skillData = {
   'Front-end': [
-    { name: 'HTML5', percent: 70, icon: '🌐' },
-    { name: 'React', percent: 50, icon: '⚛️' },
-    { name: 'CSS', percent: 60, icon: '🎨' },
-    { name: 'JavaScript', percent: 55, icon: '📜' },
-    { name: 'Tailwind CSS', percent: 80, icon: '💨' },
-    { name: 'Bootstrap5', percent: 80, icon: '🅱️' },
+    { name: 'HTML5', percent: 70, icon: <AiFillHtml5 /> },
+    { name: 'React', percent: 50, icon: <FaReact /> },
+    { name: 'CSS', percent: 60, icon: <IoLogoCss3 /> },
+    { name: 'JavaScript', percent: 55, icon: <FaJsSquare /> },
+    { name: 'Tailwind CSS', percent: 80, icon: <RiTailwindCssFill /> },
+    { name: 'Bootstrap5', percent: 80, icon: <FaBootstrap /> },
   ],
   'Back-end': [
-    { name: 'Node.js', percent: 55, icon: '🟢' },
-    { name: 'Express.js', percent: 70, icon: '🚂' },
-    { name: 'MongoDB', percent: 60, icon: '🍃' },
-    { name: 'Firebase', percent: 60, icon: '🔥' },
-    { name: 'Vercel', percent: 50, icon: '🚀' },
+    { name: 'Node.js', percent: 55, icon: <FaNode /> },
+    { name: 'Express.js', percent: 70, icon: <SiExpress /> },
+    { name: 'MongoDB', percent: 60, icon: <SiMongodb /> },
+    { name: 'Firebase', percent: 60, icon: <IoLogoFirebase /> },
+    { name: 'Vercel', percent: 50, icon: <RiVercelLine /> },
   ],
   'Web Development': [
-    { name: 'HTML', percent: 70, icon: '🌐' },
-    { name: 'CSS', percent: 60, icon: '🎨' },
-    { name: 'JavaScript', percent: 55, icon: '📜' },
-    { name: 'Tailwind CSS', percent: 80, icon: '💨' },
-    { name: 'Node.js', percent: 55, icon: '🟢' },
-    { name: 'Express', percent: 70, icon: '🚂' },
-    { name: 'MongoDB', percent: 60, icon: '🍃' },
-    { name: 'Firebase', percent: 60, icon: '🔥' },
+    { name: 'HTML', percent: 70, icon:  <AiFillHtml5 /> },
+    { name: 'CSS', percent: 60, icon: <IoLogoCss3 /> },
+    { name: 'Bootstrap5', percent: 80, icon: <FaBootstrap /> },
+    { name: 'JavaScript', percent: 55, icon: <FaJsSquare /> },
+    { name: 'Tailwind CSS', percent: 80, icon: <RiTailwindCssFill /> },
+    { name: 'Node.js', percent: 55, icon: <FaNode /> },
+    { name: 'Express', percent: 70, icon: <SiExpress /> },
+    { name: 'MongoDB', percent: 60, icon: <SiMongodb /> },
+    { name: 'Firebase', percent: 60, icon: <IoLogoFirebase /> },
   ],
 };
 
@@ -61,9 +68,9 @@ const Skills = () => {
             key={skill.name}
             className="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-purple-500 transition"
           >
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-lg font-semibold">{skill.icon} {skill.name}</span>
-              <span className="text-sm text-purple-400">{skill.percent}%</span>
+            <div className="flex justify-between mb-2">
+              <span className="text-lg font-semibold"><span className='text-3xl md:text-5xl'>{skill.icon}</span> {skill.name}</span>
+              <span className="text-sm text-purple-400 mt-11 md:mt-[75px] ">{skill.percent}%</span>
             </div>
             <div className="w-full bg-gray-700 rounded-full h-3">
               <div
